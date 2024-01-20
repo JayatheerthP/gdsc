@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.HERO {
+  background: linear-gradient(180deg, #000000b5, #000000b5), url(./assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  font-family: 'Lato', sans-serif;
+}
+
+.container:hover img {
+  transform: scale(1.05);
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  background-color: linear-gradient(180deg, #000000b5, #000000b5);
+}
