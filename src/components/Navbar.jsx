@@ -1,8 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logo from '../assets/logo-white.png'
 const Navbar = () => {
+    useEffect(() => {
+        const Navbar = document.querySelector("[data-header]");
+        window.addEventListener("scroll", function () {
+            if (window.scrollY >= 750) {
+                try {
+                    Navbar.classList.add("active");
+                } catch (error) {
+
+                }
+
+            } else {
+                try {
+                    Navbar.classList.remove("active");
+                } catch (error) {
+
+                }
+            }
+        });
+    }, [])
     return (
-        <div className="flex p-4 items-center justify-around">
+        <div className="flex p-4 items-center justify-around" data-header>
             <div>
                 <img src={logo} alt="" className='w-24' />
             </div>

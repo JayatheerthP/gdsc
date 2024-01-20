@@ -6,12 +6,12 @@ const Info = () => {
             <div className="flex flex-col items-center gap-8 font-thin">
                 <span className='text-4xl'>GET FOOD FAST — NOT FAST FOOD</span>
                 <div className=' h-[2px] bg-orange-500 w-28' />
-                <span className='text-lg'>
+                <span className='text-xl'>
                     Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy.
                     <br />
                     No time for cooking. So let us take care of that, we’re really good at it, we promise!
                 </span>
-                <div className="flex gap-10 flex-wrap font-light mt-[3rem]">
+                <div className="flex gap-10 flex-wrap font-extralight mt-[3rem]">
                     <div className="flex flex-col gap-4 w-[16rem]">
                         <i className="text-5xl text-orange-400 fa-solid fa-infinity"></i>
                         <span className='text-2xl'>UP TO 365 DAYS/YEAR</span>
